@@ -1,0 +1,30 @@
+{
+  "name": "nsci",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A nodejs-based script for setting up SSH key logins",
+  "author": "heappynd <heappynd@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/heappynd/nsci#README",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heappynd/nsci.git"
+  },
+  "main": "./bin/nsci.js",
+  "bin": {
+    "nsci": "./bin/nsci.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "node -v"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@inquirer/prompts": "^3.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "execa": "^7.1.1"
+  }
+}
